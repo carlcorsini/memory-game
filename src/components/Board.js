@@ -1,0 +1,152 @@
+import React from 'react'
+import Card from './Card'
+import { Container, Grid } from 'semantic-ui-react'
+
+class Board extends React.Component {
+  render() {
+    return (
+      <Container text>
+        <Grid>
+          <Grid.Row>
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              success={this.props.success}
+              name="thumbtack"
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="chess queen"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="thumbtack"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="coffee"
+              success={this.props.success}
+            />
+          </Grid.Row>
+          <Grid.Row>
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="chess queen"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="bug"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="money bill alternate"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="truck"
+              success={this.props.success}
+            />
+          </Grid.Row>
+          <Grid.Row>
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="rocket"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="coffee"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="truck"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="tree"
+              success={this.props.success}
+            />
+          </Grid.Row>
+          <Grid.Row>
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="bug"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="tree"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="money bill alternate"
+              success={this.props.success}
+            />
+            <Card
+              failed={this.props.failed}
+              match={this.props.match}
+              nameWin={this.props.nameWin}
+              isMatch={this.props.isMatch}
+              name="rocket"
+              success={this.props.success}
+            />
+          </Grid.Row>
+        </Grid>
+      </Container>
+    )
+  }
+}
+
+export default Board
